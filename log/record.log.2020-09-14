@@ -1,0 +1,120 @@
+[INFO] 2020-09-14 23:50:45,952 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-09-14 23:50:48,050 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-09-14 23:50:48,539 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-09-14 23:50:48,586 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-09-14 23:50:48,587 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-09-14 23:50:48,595 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-09-14 23:50:48,625 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-09-14 23:50:50,679 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-09-14 23:50:53,663 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2020-09-14 23:51:26,399 dao.AccountDAO sendEmailBySSL -CreateEmailFailed:
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1961)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at service.SendEmailService.sendEmailBySSL(SendEmailService.java:37)
+	at controller.EmailController.doPost(EmailController.java:18)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 32 more
+[INFO] 2020-09-14 23:53:13,789 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-09-14 23:53:14,768 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-09-14 23:53:15,056 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-09-14 23:53:15,096 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-09-14 23:53:15,096 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-09-14 23:53:15,097 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-09-14 23:53:15,102 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-09-14 23:53:16,081 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-09-14 23:53:18,435 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2020-09-14 23:53:23,040 dao.AccountDAO sendEmailBySSL -CreateEmailFailed:
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1961)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at service.SendEmailService.sendEmailBySSL(SendEmailService.java:37)
+	at controller.EmailController.doPost(EmailController.java:18)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 32 more

@@ -1,0 +1,308 @@
+[INFO] 2020-07-24 17:31:16,496 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:31:18,571 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:31:18,903 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:31:18,948 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:31:18,949 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:31:18,950 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:31:18,957 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:31:20,390 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:31:23,205 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:31:24,064 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:31:24,064 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:33:14,347 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:33:15,583 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:33:15,831 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:33:15,876 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:33:15,877 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:33:15,877 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:33:15,884 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:33:16,879 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:33:18,670 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:33:18,914 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:33:18,914 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:34:43,145 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:34:44,271 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:34:44,515 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:34:44,564 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:34:44,565 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:34:44,567 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:34:44,573 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:34:45,582 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:34:47,320 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:34:47,540 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:34:47,540 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:37:35,822 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:37:37,073 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:37:37,303 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:37:37,348 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:37:37,349 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:37:37,349 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:37:37,355 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:37:38,229 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:37:39,904 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:37:40,166 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:37:40,167 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:49:31,744 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:49:32,916 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:49:33,180 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:49:33,246 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:49:33,248 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:49:33,248 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:49:33,258 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:49:34,422 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:49:37,222 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:49:37,530 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:49:37,530 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:51:35,965 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:51:37,152 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:51:37,436 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:51:37,481 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:51:37,482 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:51:37,482 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:51:37,488 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:51:38,392 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:51:39,910 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:51:40,184 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:51:40,184 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:54:40,409 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:54:41,554 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:54:41,796 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:54:41,846 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:54:41,846 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:54:41,847 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:54:41,853 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:54:42,839 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:54:44,584 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:54:44,892 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:54:44,892 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 17:56:16,693 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 17:56:17,967 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 17:56:18,210 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 17:56:18,254 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 17:56:18,255 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 17:56:18,255 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 17:56:18,262 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 17:56:19,100 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 17:56:20,518 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 17:56:20,767 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 17:56:20,767 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'account'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:01:42,093 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:01:43,362 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:01:43,668 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:01:43,735 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:01:43,736 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:01:43,739 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:01:43,748 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:01:44,627 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:01:46,121 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:01:46,379 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:01:46,380 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'password'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:03:50,692 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:03:51,980 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:03:52,322 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:03:52,430 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:03:52,432 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:03:52,433 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:03:52,464 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:03:53,443 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:03:56,099 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:03:56,434 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:03:56,435 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:04:46,658 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:04:47,963 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:04:48,286 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:04:48,361 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:04:48,363 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:04:48,364 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:04:48,377 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:04:49,392 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:04:51,756 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:04:52,072 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:04:52,073 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:06:29,806 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:06:30,995 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:06:31,389 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:06:31,462 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:06:31,465 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:06:31,466 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:06:31,480 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:06:32,636 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:06:34,281 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:06:34,548 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:06:34,548 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:07:37,180 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:07:38,373 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:07:38,621 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:07:38,667 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:07:38,667 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:07:38,668 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:07:38,674 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:07:39,556 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:07:41,089 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:07:41,498 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:07:41,498 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:13:04,454 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:13:05,523 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:13:05,774 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:13:05,819 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:13:05,820 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:13:05,820 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:13:05,829 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:13:06,626 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:13:08,348 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:13:08,697 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:13:08,697 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:15:42,944 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:15:44,127 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:15:44,389 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:15:44,442 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:15:44,442 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:15:44,443 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:15:44,451 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:15:45,524 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:15:47,094 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:15:47,367 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:15:47,368 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:26:22,984 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:26:24,086 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:26:24,425 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:26:24,477 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:26:24,478 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:26:24,478 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:26:24,487 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:26:25,437 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:26:27,333 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:26:27,658 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:26:27,659 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:44:48,466 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:44:49,499 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:44:49,825 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:44:49,875 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:44:49,875 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:44:49,876 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:44:49,884 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:44:50,881 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:44:52,875 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:44:53,157 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:44:53,157 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:46:40,316 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:46:41,611 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:46:41,904 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:46:41,955 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:46:41,956 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:46:41,956 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:46:41,963 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:46:42,964 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:46:45,056 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:48:21,663 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:48:21,664 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[WARN] 2020-07-24 18:48:22,113 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:48:22,114 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:50:18,682 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:50:19,851 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:50:20,156 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:50:20,205 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:50:20,206 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:50:20,206 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:50:20,213 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:50:21,128 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:50:23,064 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:51:19,449 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:51:19,449 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 18:54:42,966 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 18:54:43,941 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 18:54:44,195 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 18:54:44,237 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 18:54:44,238 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 18:54:44,238 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 18:54:44,245 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 18:54:45,052 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 18:54:47,001 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 18:54:47,296 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 18:54:47,297 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -µL™k¥°§J NULL ≠»®Ï∏ÍÆ∆¶Ê 'id'°A∏ÍÆ∆™Ì 'sideproject.dbo.account'; ∏ÍÆ∆¶Ê§£±o¶≥ Null°CINSERT •¢±—°C
+[INFO] 2020-07-24 19:00:18,799 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:00:19,902 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:00:20,143 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:00:20,193 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:00:20,193 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:00:20,194 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:00:20,203 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:00:20,983 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:00:23,006 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:00:23,434 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:00:23,434 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:19:48,148 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:19:49,933 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:19:50,422 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:19:50,524 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:19:50,531 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:19:50,532 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:19:50,541 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:19:51,665 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:19:54,268 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:19:54,759 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:19:54,760 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:29:30,585 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:29:31,823 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:29:32,167 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:29:32,229 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:29:32,245 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:29:32,245 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:29:32,245 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:29:33,156 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:29:34,815 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:29:35,128 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:29:35,128 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:32:00,806 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:32:02,540 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:32:02,798 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:32:02,841 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:32:02,841 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:32:02,841 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:32:02,841 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:32:03,760 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:32:04,733 org.hibernate.orm.connections.pooling stop -HHH10001008: Cleaning up connection pool [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:36:28,710 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:36:29,798 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:36:30,085 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:36:30,132 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:36:30,132 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:36:30,132 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:36:30,147 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:36:31,117 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:36:33,289 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:36:33,707 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:36:33,707 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:38:11,471 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:38:13,138 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:38:13,426 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:38:13,473 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:38:13,473 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:38:13,473 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:38:13,489 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:38:14,297 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:38:16,406 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:38:52,051 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:38:52,051 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:40:39,420 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:40:40,865 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:40:41,218 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:40:41,294 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:40:41,294 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:40:41,295 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:40:41,306 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:40:42,212 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:40:43,966 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:40:44,259 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:40:44,259 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
+[INFO] 2020-07-24 19:41:49,912 org.hibernate.Version logVersion -HHH000412: Hibernate Core {5.4.11.Final}
+[INFO] 2020-07-24 19:41:51,380 org.hibernate.annotations.common.Version <clinit> -HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[WARN] 2020-07-24 19:41:51,695 org.hibernate.orm.connections.pooling configure -HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO] 2020-07-24 19:41:51,758 org.hibernate.orm.connections.pooling buildCreator -HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;database=sideproject]
+[INFO] 2020-07-24 19:41:51,758 org.hibernate.orm.connections.pooling buildCreator -HHH10001001: Connection properties: {user=jackpot, password=****}
+[INFO] 2020-07-24 19:41:51,758 org.hibernate.orm.connections.pooling buildCreator -HHH10001003: Autocommit mode: false
+[INFO] 2020-07-24 19:41:51,778 org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl <init> -HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO] 2020-07-24 19:41:52,680 org.hibernate.dialect.Dialect <init> -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO] 2020-07-24 19:41:54,760 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN] 2020-07-24 19:42:09,729 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -SQL Error: 515, SQLState: 23000
+[ERROR] 2020-07-24 19:42:09,729 org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions -ÁÑ°Ê≥ïÊèíÂÖ• NULL ÂÄºÂà∞Ë≥áÊñôË°å 'id'ÔºåË≥áÊñôË°® 'sideproject.dbo.account'; Ë≥áÊñôË°å‰∏çÂæóÊúâ Null„ÄÇINSERT Â§±Êïó„ÄÇ
